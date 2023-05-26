@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1271934160878788
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4378196617072769}
+  - component: {fileID: 114644237913833652}
+  - component: {fileID: 114367609719363607}
+  - component: {fileID: 114590866043465684}
+  - component: {fileID: 114488130093586755}
+  - component: {fileID: 114539945974247403}
+  - component: {fileID: 114287678821093725}
+  - component: {fileID: 114384506340936362}
+  - component: {fileID: 114916688397752115}
+  m_Layer: 0
+  m_Name: Act_02_Tutorials_01_NodeMap_Event
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4378196617072769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271934160878788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.0027328, y: 20.401947, z: -24.111328}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114644237913833652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271934160878788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a55ab982c24c77ff2e5338a021c2061, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  actions:
+  - {fileID: 114488130093586755}
+  - {fileID: 114590866043465684}
+  - {fileID: 114539945974247403}
+  - {fileID: 114384506340936362}
+  - {fileID: 114367609719363607}
+  - {fileID: 114287678821093725}
+  - {fileID: 114916688397752115}
+--- !u!114 &114367609719363607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271934160878788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf0f8f6978fbf601c29e71e9854e0fb7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  matchIndex: 0
+--- !u!114 &114590866043465684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271934160878788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 111efefe411864b489c86616eb05995e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  elementsToShow:
+  currenciesToShow:
+  characterContex: {fileID: 0}
+  immediate: 0
+--- !u!114 &114488130093586755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271934160878788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b489b9d4cd9bd656344c2ad8faf3e36c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  active: 1
+--- !u!114 &114539945974247403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271934160878788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30666d09ce579a0a3ec4abd0ef56cde3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114287678821093725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271934160878788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a9476306726e6b19332eaf582022ab2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefab: {fileID: 1802373137076321, guid: 89c5fde242e2c4a45abbe7f794859633, type: 2}
+  dontDestroyOnLoad: 0
+--- !u!114 &114384506340936362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271934160878788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cebad34378f572562aa741cae30e8282, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  active: 1
+  screen: 3
+--- !u!114 &114916688397752115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271934160878788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb3889d97841e87f84e84ef64167451, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  playerCharacterGenerators:
+  - characterData: {fileID: 11400000, guid: a6343bb4dddf16c40b672d25dba837bd, type: 2}
+    randomCharacterList: {fileID: 0}
+    levelRange: {x: 1, y: 1}
+    extraSkillPoints: 0
+    minCharacterTier: 0
+    gearGenerators:
+    - autoSelectType: 0
+      gearData: {fileID: 11400000, guid: 267595b4e0ed07a41bd316201a2add81, type: 2}
+      levelRange: {x: 1, y: 1}
+      strengthRange: {x: 0, y: 0}
+      gearTierMask: 0
+    - autoSelectType: 0
+      gearData: {fileID: 0}
+      levelRange: {x: 1, y: 1}
+      strengthRange: {x: 0, y: 0}
+      gearTierMask: 0
+  - characterData: {fileID: 11400000, guid: 86df12bd227aed549ab39e54dbab7b57, type: 2}
+    randomCharacterList: {fileID: 0}
+    levelRange: {x: 1, y: 1}
+    extraSkillPoints: 0
+    minCharacterTier: 0
+    gearGenerators:
+    - autoSelectType: 0
+      gearData: {fileID: 11400000, guid: 5b951c909497de04e847e063a97aba1f, type: 2}
+      levelRange: {x: 1, y: 1}
+      strengthRange: {x: 0, y: 0}
+      gearTierMask: 0
+    - autoSelectType: 0
+      gearData: {fileID: 11400000, guid: a991ce9a493c6324ebc4ef089d9b26b6, type: 2}
+      levelRange: {x: 1, y: 1}
+      strengthRange: {x: 0, y: 0}
+      gearTierMask: 0
+  - characterData: {fileID: 11400000, guid: 521e49f76038c9d42a64fe7cccb05b6a, type: 2}
+    randomCharacterList: {fileID: 0}
+    levelRange: {x: 1, y: 1}
+    extraSkillPoints: 0
+    minCharacterTier: 0
+    gearGenerators:
+    - autoSelectType: 0
+      gearData: {fileID: 11400000, guid: 70135c0d24cb72e49abe0e18be786f23, type: 2}
+      levelRange: {x: 1, y: 1}
+      strengthRange: {x: 0, y: 0}
+      gearTierMask: 0
+    - autoSelectType: 0
+      gearData: {fileID: 0}
+      levelRange: {x: 1, y: 1}
+      strengthRange: {x: 0, y: 0}
+      gearTierMask: 0

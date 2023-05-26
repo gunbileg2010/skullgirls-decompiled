@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc8c43123f435386bae58595feef1a6, type: 3}
+  m_Name: ArenaEmpty
+  m_EditorClassIdentifier:
+  environmentAssetPath: assets/stages/arenaempty/arenaempty3d.prefab
+  stageSize: {x: 281.25, y: 125}
+  ambientLightColor: {r: 0.7585424, g: 0.8179066, b: 0.89705884, a: 1}
+  directionalLights:
+  - color: {x: 0.39215687, y: 0.5882353, z: 0.5882353}
+    direction: {x: 0, y: 0.9805807, z: 0.19611615}
+  pointLights:
+  - enabled: 1
+    color: {x: 1.1764706, y: 1.1764706, z: 1.5686275}
+    position: {x: -23.4375, y: 125, z: 12.5}
+    radius: 250
+  hasSimpleLightingAmbientLightColor: 1
+  simpleLightingAmbientLightColor: {r: 0.8632076, g: 0.9240042, b: 1, a: 1}
+  shadowFadeDistance: -12.5
+  introMusicAssetPath: assets/music/stages/arenaempty_intro.wav
+  loopMusicAssetPath: assets/music/stages/arenaempty_loop.wav

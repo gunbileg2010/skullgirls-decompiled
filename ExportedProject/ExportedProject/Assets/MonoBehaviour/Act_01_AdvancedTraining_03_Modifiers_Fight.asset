@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e286d9e789c6881b98cd3bede916b3b, type: 3}
+  m_Name: Act_01_AdvancedTraining_03_Modifiers_Fight
+  m_EditorClassIdentifier:
+  stage: {fileID: 11400000, guid: c6203f2feab7aa1498fb0c12cfca068f, type: 2}
+  randomStages: {fileID: 0}
+  difficulty: 1
+  overrideEnemyAIProfile: {fileID: 11400000, guid: 2379876163a053344abbe15bde214571, type: 2}
+  playerMaxTeamSize: 2
+  overrideDurationInSeconds: 0
+  xpOverride: 0
+  xpMultiplier: 0
+  rewardMultiplier: 0
+  skipFightIntro: 0
+  skipXP: 1
+  energyRequirement: 0
+  fightConstraints: []
+  defenseTeamConstraints: []
+  matchChallenges: []
+  enemyFightModifiers: []
+  enemyFighterFSMultiplierAddition: 0
+  enemyCharacterGenerators:
+  - characterData: {fileID: 11400000, guid: e16e77cd5037254438d5aa84b421797b, type: 2}
+    randomCharacterList: {fileID: 0}
+    levelRange: {x: 3, y: 3}
+    extraSkillPoints: 0
+    minCharacterTier: 0
+    gearGenerators:
+    - autoSelectType: 2
+      gearData: {fileID: 11400000, guid: a42188bff1a70924eb46c1979ea58f02, type: 2}
+      levelRange: {x: 1, y: 1}
+      strengthRange: {x: 0, y: 3}
+      gearTierMask: -7
+    - autoSelectType: 0
+      gearData: {fileID: 0}
+      levelRange: {x: 1, y: 1}
+      strengthRange: {x: 0, y: 3}
+      gearTierMask: -7
+    - autoSelectType: 0
+      gearData: {fileID: 0}
+      levelRange: {x: 1, y: 1}
+      strengthRange: {x: 0, y: 3}
+      gearTierMask: -7
+    - autoSelectType: 0
+      gearData: {fileID: 0}
+      levelRange: {x: 1, y: 1}
+      strengthRange: {x: 0, y: 3}
+      gearTierMask: -7
+    - autoSelectType: 0
+      gearData: {fileID: 0}
+      levelRange: {x: 1, y: 1}
+      strengthRange: {x: 0, y: 3}
+      gearTierMask: -7
+  playerFightModifiers: []
+  useCollectionForPlayerCharacters: 0
+  playerCharacterGenerators:
+  - characterData: {fileID: 11400000, guid: 521e49f76038c9d42a64fe7cccb05b6a, type: 2}
+    randomCharacterList: {fileID: 0}
+    levelRange: {x: 2, y: 2}
+    extraSkillPoints: 0
+    minCharacterTier: 0
+    gearGenerators:
+    - autoSelectType: 0
+      gearData: {fileID: 11400000, guid: 70135c0d24cb72e49abe0e18be786f23, type: 2}
+      levelRange: {x: 1, y: 1}
+      strengthRange: {x: 0, y: 0}
+      gearTierMask: 0
+    - autoSelectType: 0
+      gearData: {fileID: 11400000, guid: 4f8887ab407315e4eb52fc3ac86a372f, type: 2}
+      levelRange: {x: 1, y: 1}
+      strengthRange: {x: 0, y: 0}
+      gearTierMask: 0
+  tutorial: {fileID: 114441230720882506, guid: acd2ffb8986921b4b923a514279addc9, type: 2}
+  startingPositionOffset:
+    value: 0
+  fightSeed: -1

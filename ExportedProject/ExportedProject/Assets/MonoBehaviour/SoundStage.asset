@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc8c43123f435386bae58595feef1a6, type: 3}
+  m_Name: SoundStage
+  m_EditorClassIdentifier:
+  environmentAssetPath: assets/stages/soundstage/soundstage3d.prefab
+  stageSize: {x: 281.25, y: 125}
+  ambientLightColor: {r: 0.8632076, g: 0.93433964, b: 1, a: 1}
+  directionalLights: []
+  pointLights:
+  - enabled: 1
+    color: {x: 1, y: 0.3, z: 0}
+    position: {x: -117.8, y: 76.2, z: 0}
+    radius: 87.6
+  - enabled: 1
+    color: {x: 1, y: 0.3, z: 0}
+    position: {x: 117.8, y: 76.2, z: 0}
+    radius: 74.6
+  - enabled: 1
+    color: {x: 1.2, y: 2.4, z: 2.7}
+    position: {x: 1.1, y: 64.17, z: 0}
+    radius: 87.6
+  hasSimpleLightingAmbientLightColor: 1
+  simpleLightingAmbientLightColor: {r: 0.8632076, g: 0.93433964, b: 1, a: 1}
+  shadowFadeDistance: -18
+  introMusicAssetPath: assets/music/stages/soundstage_intro.wav
+  loopMusicAssetPath: assets/music/stages/soundstage_loop.wav

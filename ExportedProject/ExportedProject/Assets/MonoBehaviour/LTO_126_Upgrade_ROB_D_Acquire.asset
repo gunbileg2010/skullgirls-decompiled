@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5283f776292d7f0180d082a5d7b448, type: 3}
+  m_Name: LTO_126_Upgrade_ROB_D_Acquire
+  m_EditorClassIdentifier:
+  guid: c5588d66-e98c-4521-aac7-3e0d7df96ba6
+  humanReadableGuid: lto-126-upg-rob-diam
+  title: LTO_Upgrade_ROB_Title
+  displayOrder: 1620
+  offerType: 0
+  storeDecorationPrefab:
+    resourcePath:
+    resourceLoadType: 0
+    bundleName:
+  storeBannerData:
+    offerTableauPrefab:
+      resourcePath: BundleOffers/Bundle_Character_SkillPointsOnly_Tableau
+      resourceLoadType: 0
+      bundleName:
+    offerTableauMultiFoldPrefab:
+      resourcePath: BundleOffers/Bundle_Character_SkillPointsOnly_Tableau_MultiVariant
+      resourceLoadType: 0
+      bundleName:
+    offerTableauData:
+      talkingHeads:
+      - talkingHead: {fileID: 11400000, guid: c2cfec7c0c6fb5741bc9d979ce18fe6d, type: 2}
+        emoteName: Yell2
+        offset: {x: 40, y: -10}
+        scaleMult: 1
+      multiFoldTalkingHeadoffset:
+      - {x: 40, y: -40}
+      skillpointSprite: {fileID: 21300000, guid: 9d754bd2a49b0dc49998a4fba737513d, type: 2}
+      keySprite: {fileID: 21300000, guid: 8aa8e1b842aecd445b3965db9281bda9, type: 2}
+      dynamicKeySprite:
+        resourcePath:
+        resourceLoadType: 0
+        bundleName:
+      gachaDatas: []
+      characterCardSpread: []
+      featuredText:
+      featuredTextSubstitutions: []
+      showTheoniteLayers: 0
+      showTheoniteLayers2: 0
+      showTheoniteLayers3: 0
+      showCoinLayers: 1
+      showCoinLayers2: 1
+      showCoinLayers3: 1
+      showGoldGiftBurst: 0
+    contentDescription: LTO_Upgrade_ROB_Pitch_Generic
+    featuredRewardDescription:
+    relicOddsPopupIndex: -1
+    rewardsPerRow: 2
+    rewardsRowSpacing: 8
+    rewardsRowHeight: 34
+    rewardsRowPadding: 5
+    backgroundTexture:
+      resourcePath:
+      resourceLoadType: 0
+      bundleName:
+    backgroundGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    backgroundUVAnimateSpeed: {x: 0, y: 0}
+    backgroundUVWidthHeight: {x: 1, y: 1}
+  attractButtonDynamicResource:
+    resourcePath:
+    resourceLoadType: 0
+    bundleName:
+  attractButtonStaticResource: 20
+  attractButtonImageYOffset: 20
+  attractButtonImageColor: {r: 1, g: 1, b: 1, a: 1}
+  attrackButtonFlipImage: 0
+  attractButtonSkillPointBaseCharacterData: {fileID: 11400000, guid: c67ac32c16a136b4caf71af1bfc38a5b, type: 2}
+  showPopupImmediately: 1
+  daysLeftToTrigger: 01000000
+  popupData: {fileID: 11400000, guid: b6305837a2797c8468b8e0ec5fbdc65a, type: 2}
+  popupParams:
+    rewardGridCellSize: {x: 240, y: 35}
+    rewardGridCellSpacing: {x: 40, y: 25}
+    rewardGridLayoutConstraint: 1
+    rewardGridLayoutConstraintCount: 2
+    showRewardDescriptions: 1
+    showFeaturedRewardDescription: 0
+  specificOfferPopupCooldownHours: 24
+  teaseStickerPrefab: {fileID: 0}
+  teaseStickerScale: 1
+  notifications: []
+  trigger: 0
+  triggerCompleteActCondition: {fileID: 0}
+  triggerCharacterConditions: []
+  triggerCurrencyTypeCondition: 0
+  triggerBaseCharacterConditions:
+  - {fileID: 11400000, guid: c67ac32c16a136b4caf71af1bfc38a5b, type: 2}
+  triggerRarityTierConditions: 0203
+  triggerIntConditions:
+  triggerAchievementConditions: []
+  triggerTags:
+  - fighterUpgradeDiamondROB
+  triggerFrequencyMinutes: 4320
+  durationMinutes: 720
+  purchaseLimit: 1
+  offerLoots:
+    paidLoots:
+    - lootType: 23
+      amount: 20
+      gear: {fileID: 0}
+      character: {fileID: 11400000, guid: 4556a1e94b22a464f9d31be1ed0eacc5, type: 2}
+      reel: {fileID: 11400000, guid: f4904f2aa31540a4c821c6d460826829, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 11400000, guid: c67ac32c16a136b4caf71af1bfc38a5b, type: 2}
+      rarityTier: 3
+      elementType: 3
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+    - lootType: 0
+      amount: 1000000
+      gear: {fileID: 0}
+      character: {fileID: 11400000, guid: 4556a1e94b22a464f9d31be1ed0eacc5, type: 2}
+      reel: {fileID: 11400000, guid: f4904f2aa31540a4c821c6d460826829, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 11400000, guid: 1d1aea20b9c7045408f8ef457f09568e, type: 2}
+      rarityTier: 0
+      elementType: 3
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+    bonusLoots: []
+  isMoneyOffer: 1
+  pricePoints:
+  - name: Normal Price
+    sticker:
+      text: IAPStore_Tag_Value
+      value: 250
+    appleProductId: i_sgm_lto_126_upg_rob_d
+    googleProductId: a_sgm_lto_126_upg_rob_d
+    placeholderPrice: $29.99
+  - name: Sale Price
+    sticker:
+      text: IAPStore_Tag_Value
+      value: 750
+    appleProductId: i_sgm_lto_126_upg_rob_d_sale
+    googleProductId: a_sgm_lto_126_upg_rob_d_sale
+    placeholderPrice: $9.99
+  currencyPricePoints: []

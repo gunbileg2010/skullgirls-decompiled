@@ -1,0 +1,12 @@
+public enum DamageType
+{
+	NORMAL = 0,
+	FURY = 1,
+	BLOCKED = 2,
+	REGEN = 3,
+	BLEED = 4,
+	CRITICAL = 5,
+	ELEMENTAL_ADVANTAGE = 6,
+	ELEMENTAL_DISADVANTAGE = 7,
+	BARRIER = 8
+}

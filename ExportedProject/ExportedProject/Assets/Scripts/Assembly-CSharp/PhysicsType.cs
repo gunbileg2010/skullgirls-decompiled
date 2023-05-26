@@ -1,0 +1,8 @@
+public enum PhysicsType
+{
+	PHYSICS_NONE = 0,
+	PHYSICS_BOTH = 1,
+	PHYSICS_AIR = 2,
+	PHYSICS_GROUND = 3,
+	PHYSICS_LOCK_IN_PLACE = 4
+}

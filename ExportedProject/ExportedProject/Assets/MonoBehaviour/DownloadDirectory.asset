@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf19f792857561c9018f4f55d8bba24, type: 3}
+  m_Name: DownloadDirectory
+  m_EditorClassIdentifier:
+  priorityToFinishBeforeStartingFtue: 15
+  priorityToFinishBeforeFtueStep1: 17
+  priorityToFinishBeforeFtueStep5: 19
+  bundlesToDownload:
+  - name: localization
+    priority: 0
+  - name: sfx_general
+    priority: 0
+  - name: sfxjp_general
+    priority: 0
+  - name: vo_general
+    priority: 0
+  - name: vojp_general
+    priority: 0
+  - name: sfx_peacock
+    priority: 2
+  - name: sfx_valentine
+    priority: 2
+  - name: vo_peacock
+    priority: 2
+  - name: vo_valentine
+    priority: 2
+  - name: vojp_peacock
+    priority: 2
+  - name: vojp_valentine
+    priority: 2
+  - name: stage_asglabs
+    priority: 10
+  - name: stage_citymap
+    priority: 11
+  - name: palettizedimages
+    priority: 12
+  - name: signatureabilities
+    priority: 12
+  - name: talkingheads
+    priority: 12
+  - name: sfx_bigband
+    priority: 16
+  - name: sfx_cerebella
+    priority: 16
+  - name: stage_fallingwreckage
+    priority: 16
+  - name: vo_bigband
+    priority: 16
+  - name: vo_cerebella
+    priority: 16
+  - name: vojp_bigband
+    priority: 16
+  - name: vojp_cerebella
+    priority: 16
+  - name: sfx_annie
+    priority: 20
+  - name: sfx_eliza
+    priority: 20
+  - name: stage_soundstage
+    priority: 20
+  - name: vo_annie
+    priority: 20
+  - name: vo_eliza
+    priority: 20
+  - name: vojp_eliza
+    priority: 20
+  - name: sfx_filia
+    priority: 30
+  - name: vo_filia
+    priority: 30
+  - name: vojp_filia
+    priority: 30
+  - name: sfx_painwheel
+    priority: 40
+  - name: vo_painwheel
+    priority: 40
+  - name: vojp_painwheel
+    priority: 40
+  - name: sfx_parasoul
+    priority: 50
+  - name: vo_parasoul
+    priority: 50
+  - name: vojp_parasoul
+    priority: 50
+  - name: sfx_beowulf
+    priority: 60
+  - name: vo_beowulf
+    priority: 60
+  - name: vojp_beowulf
+    priority: 60
+  - name: sfx_double
+    priority: 70
+  - name: vo_double
+    priority: 70
+  - name: vojp_double
+    priority: 70
+  - name: sfx_squigly
+    priority: 80
+  - name: vo_squigly
+    priority: 80
+  - name: vojp_squigly
+    priority: 80
+  - name: sfx_msfortune
+    priority: 85
+  - name: vo_msfortune
+    priority: 85
+  - name: vojp_msfortune
+    priority: 85
+  - name: sfx_robofortune
+    priority: 90
+  - name: vo_robofortune
+    priority: 90
+  - name: vojp_robofortune
+    priority: 90
+  - name: sfx_fukua
+    priority: 95
+  - name: vo_fukua
+    priority: 95
+  - name: vojp_fukua
+    priority: 95
+  - name: sfx_umbrella
+    priority: 96
+  - name: vo_umbrella
+    priority: 96
+  - name: sfx_blackdahlia
+    priority: 97
+  - name: vo_blackdahlia
+    priority: 97
+  - name: stage_arena
+    priority: 100
+  - name: stage_atriumnight
+    priority: 100
+  - name: stage_bathhouse
+    priority: 100
+  - name: stage_boardwalk
+    priority: 100
+  - name: stage_cathedral
+    priority: 100
+  - name: stage_classnotes
+    priority: 100
+  - name: stage_gehenna
+    priority: 100
+  - name: stage_innsmouth
+    priority: 100
+  - name: stage_maplecrest
+    priority: 100
+  - name: stage_medicioffice
+    priority: 100
+  - name: stage_newmeridianstreets
+    priority: 100
+  - name: stage_nomansland
+    priority: 100
+  - name: stage_rapidtransit
+    priority: 100
+  - name: stage_riverkingcasino
+    priority: 100
+  - name: stage_rooftops
+    priority: 100
+  - name: stage_underthebridge
+    priority: 100
+  - name: stage_speakeasy
+    priority: 100
+  bundleOverrides:
+  - originalBundle: ArenaEmpty
+    overrideBundle: Arena
+  - originalBundle: ArenaFull
+    overrideBundle: Arena
+  - originalBundle: ASGLabsEmpty
+    overrideBundle: ASGLabs
+  - originalBundle: BathhouseBlood
+    overrideBundle: Bathhouse
+  - originalBundle: CathedralNight
+    overrideBundle: Cathedral
+  - originalBundle: FallingWreckageReels
+    overrideBundle: FallingWreckage
+  - originalBundle: InnsmouthNight
+    overrideBundle: Innsmouth
+  - originalBundle: InnsmouthDay
+    overrideBundle: Innsmouth
+  - originalBundle: RooftopsDay
+    overrideBundle: Rooftops
+  - originalBundle: RooftopsNight
+    overrideBundle: Rooftops
+  - originalBundle: globalsounds
+    overrideBundle: general
+  - originalBundle: hitspark
+    overrideBundle: general
+  - originalBundle: ui
+    overrideBundle: general
+  - originalBundle: Nightmarecrest
+    overrideBundle: Maplecrest
+  characterBlobs:
+  - name: hitspark
+    priority: 1
+  - name: peacock
+    priority: 1
+  - name: valentine
+    priority: 1
+  - name: bigband
+    priority: 16
+  - name: cerebella
+    priority: 16
+  - name: eliza
+    priority: 21
+  - name: filia
+    priority: 31
+  - name: painwheel
+    priority: 41
+  - name: parasoul
+    priority: 51
+  - name: beowulf
+    priority: 61
+  - name: double
+    priority: 71
+  - name: squigly
+    priority: 81
+  - name: msfortune
+    priority: 91
+  - name: robofortune
+    priority: 92
+  - name: fukua
+    priority: 93
+  - name: annie
+    priority: 94
+  - name: umbrella
+    priority: 95
+  - name: blackdahlia
+    priority: 96

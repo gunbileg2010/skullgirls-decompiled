@@ -1,0 +1,28 @@
+public enum LootType
+{
+	SoftCurrency = 0,
+	HardCurrency = 1,
+	SpecialMove = 2,
+	Character = 3,
+	Gacha = 4,
+	LootTable = 5,
+	GachaShards = 6,
+	SkillPoints = 7,
+	None = 8,
+	Keys = 9,
+	EssenceShards = 10,
+	Essences = 11,
+	BattleCurrency = 12,
+	BattleTicketFree = 13,
+	BattleTicketPaid = 14,
+	NodeModifier = 15,
+	Consumable = 16,
+	GachaVoucher = 17,
+	SocialGiftStandard = 18,
+	SocialGiftGold = 19,
+	EnergyRefill = 20,
+	DailyEventTicket = 21,
+	CharacterGachaShard = 22,
+	RerollRune = 23,
+	UniversalRerollRune = 24
+}

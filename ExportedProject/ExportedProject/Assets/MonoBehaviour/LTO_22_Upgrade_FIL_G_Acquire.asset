@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5283f776292d7f0180d082a5d7b448, type: 3}
+  m_Name: LTO_22_Upgrade_FIL_G_Acquire
+  m_EditorClassIdentifier:
+  guid: 4953a61e-1e43-4682-87e7-bf75d6d9c9ee
+  humanReadableGuid: lto-22-upg-fil-gold
+  title: LTO_Upgrade_FIL_Title
+  displayOrder: 1561
+  offerType: 0
+  storeDecorationPrefab:
+    resourcePath:
+    resourceLoadType: 0
+    bundleName:
+  storeBannerData:
+    offerTableauPrefab:
+      resourcePath: BundleOffers/Bundle_Character_SkillPointsOnly_Tableau
+      resourceLoadType: 0
+      bundleName:
+    offerTableauMultiFoldPrefab:
+      resourcePath: BundleOffers/Bundle_Character_SkillPointsOnly_Tableau_MultiVariant
+      resourceLoadType: 0
+      bundleName:
+    offerTableauData:
+      talkingHeads:
+      - talkingHead: {fileID: 11400000, guid: 6646fbfb33e71c14188b335fdc114aac, type: 2}
+        emoteName: Angry
+        offset: {x: 10, y: -5}
+        scaleMult: 1
+      multiFoldTalkingHeadoffset:
+      - {x: 10, y: -40}
+      skillpointSprite: {fileID: 21300000, guid: fff29371245484b479549f5a726f5adc, type: 2}
+      keySprite: {fileID: 21300000, guid: 732e5a999773efc41aae690b6b73c430, type: 2}
+      dynamicKeySprite:
+        resourcePath:
+        resourceLoadType: 0
+        bundleName:
+      gachaDatas: []
+      characterCardSpread: []
+      featuredText:
+      featuredTextSubstitutions: []
+      showTheoniteLayers: 0
+      showTheoniteLayers2: 0
+      showTheoniteLayers3: 0
+      showCoinLayers: 1
+      showCoinLayers2: 1
+      showCoinLayers3: 0
+      showGoldGiftBurst: 0
+    contentDescription: LTO_Upgrade_FIL_Pitch_Generic
+    featuredRewardDescription:
+    relicOddsPopupIndex: -1
+    rewardsPerRow: 2
+    rewardsRowSpacing: 8
+    rewardsRowHeight: 34
+    rewardsRowPadding: 5
+    backgroundTexture:
+      resourcePath:
+      resourceLoadType: 0
+      bundleName:
+    backgroundGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    backgroundUVAnimateSpeed: {x: 0, y: 0}
+    backgroundUVWidthHeight: {x: 1, y: 1}
+  attractButtonDynamicResource:
+    resourcePath:
+    resourceLoadType: 0
+    bundleName:
+  attractButtonStaticResource: 20
+  attractButtonImageYOffset: 20
+  attractButtonImageColor: {r: 1, g: 1, b: 1, a: 1}
+  attrackButtonFlipImage: 0
+  attractButtonSkillPointBaseCharacterData: {fileID: 11400000, guid: dd7432dd3fce17b4b9e199513724b21a, type: 2}
+  showPopupImmediately: 1
+  daysLeftToTrigger: 01000000
+  popupData: {fileID: 11400000, guid: b6305837a2797c8468b8e0ec5fbdc65a, type: 2}
+  popupParams:
+    rewardGridCellSize: {x: 240, y: 35}
+    rewardGridCellSpacing: {x: 40, y: 25}
+    rewardGridLayoutConstraint: 1
+    rewardGridLayoutConstraintCount: 2
+    showRewardDescriptions: 1
+    showFeaturedRewardDescription: 0
+  specificOfferPopupCooldownHours: 24
+  teaseStickerPrefab: {fileID: 0}
+  teaseStickerScale: 1
+  notifications: []
+  trigger: 0
+  triggerCompleteActCondition: {fileID: 0}
+  triggerCharacterConditions: []
+  triggerCurrencyTypeCondition: 0
+  triggerBaseCharacterConditions:
+  - {fileID: 11400000, guid: dd7432dd3fce17b4b9e199513724b21a, type: 2}
+  triggerRarityTierConditions: 0203
+  triggerIntConditions:
+  triggerAchievementConditions: []
+  triggerTags:
+  - fighterUpgradeGoldFIL
+  triggerFrequencyMinutes: 4320
+  durationMinutes: 720
+  purchaseLimit: 1
+  offerLoots:
+    paidLoots:
+    - lootType: 23
+      amount: 20
+      gear: {fileID: 0}
+      character: {fileID: 11400000, guid: 4556a1e94b22a464f9d31be1ed0eacc5, type: 2}
+      reel: {fileID: 11400000, guid: f4904f2aa31540a4c821c6d460826829, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 11400000, guid: dd7432dd3fce17b4b9e199513724b21a, type: 2}
+      rarityTier: 2
+      elementType: 3
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+    - lootType: 0
+      amount: 400000
+      gear: {fileID: 0}
+      character: {fileID: 11400000, guid: 4556a1e94b22a464f9d31be1ed0eacc5, type: 2}
+      reel: {fileID: 11400000, guid: f4904f2aa31540a4c821c6d460826829, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 11400000, guid: dd7432dd3fce17b4b9e199513724b21a, type: 2}
+      rarityTier: 0
+      elementType: 3
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+    bonusLoots: []
+  isMoneyOffer: 1
+  pricePoints:
+  - name: Normal Price
+    sticker:
+      text: IAPStore_Tag_Value
+      value: 200
+    appleProductId: i_sgm_lto_22_upg_fil_g
+    googleProductId: a_sgm_lto_22_upg_fil_g
+    placeholderPrice: $14.99
+  - name: Sale Price
+    sticker:
+      text: IAPStore_Tag_Value
+      value: 600
+    appleProductId: i_sgm_lto_22_upg_fil_g_sale
+    googleProductId: a_sgm_lto_22_upg_fil_g_sale
+    placeholderPrice: $4.99
+  currencyPricePoints: []

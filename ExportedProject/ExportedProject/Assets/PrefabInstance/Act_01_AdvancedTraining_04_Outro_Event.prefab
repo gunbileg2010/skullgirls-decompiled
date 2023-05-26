@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1953216015112582
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4501734415710664}
+  - component: {fileID: 114471639397509675}
+  - component: {fileID: 114890498896343453}
+  - component: {fileID: 114762873902953810}
+  - component: {fileID: 114273074155222129}
+  m_Layer: 0
+  m_Name: Act_01_AdvancedTraining_04_Outro_Event
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4501734415710664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953216015112582}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.0027328, y: 20.401947, z: -24.111328}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114471639397509675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953216015112582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a55ab982c24c77ff2e5338a021c2061, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  actions:
+  - {fileID: 114762873902953810}
+  - {fileID: 114890498896343453}
+  - {fileID: 114273074155222129}
+--- !u!114 &114890498896343453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953216015112582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49f6066fa378d8db8effe6e88f9e7457, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  popupData: {fileID: 11400000, guid: 6c0faff55d9fd2048aea5b0ad5df91aa, type: 2}
+  popupText: SD_A01_ADV04_D2
+  talkingHead: {fileID: 11400000, guid: 4592297ca81d2404a956eca4edc3bbf2, type: 2}
+  talkingHeadEmote: Neutral
+--- !u!114 &114762873902953810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953216015112582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152fce88470a1fd585bc7f25a3eaf85f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  actionDisplay: {fileID: 0}
+  actionPromptText:
+  tutorialIndications: []
+  eventName: CurtainOpen
+  repetitions: 1
+--- !u!114 &114273074155222129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953216015112582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49f6066fa378d8db8effe6e88f9e7457, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  popupData: {fileID: 11400000, guid: 6c0faff55d9fd2048aea5b0ad5df91aa, type: 2}
+  popupText: SD_A01_ADV04_D4
+  talkingHead: {fileID: 11400000, guid: 1d499a671b488694894cb49eaaa160d6, type: 2}
+  talkingHeadEmote: Saluting

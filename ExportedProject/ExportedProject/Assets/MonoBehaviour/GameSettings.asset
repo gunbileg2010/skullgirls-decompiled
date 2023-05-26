@@ -1,0 +1,1038 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31276b65418f0e9b7e94b20d51c007e4, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier:
+  overallFighterScoreMultiplier: 0.7
+  skillNodeFSGlobalMultiplier: 1
+  enemyFighterFSGlobalMultiplier: 1
+  superAbilityUnlockFSMultiplierAddition: 0.01
+  superAbilityFSMultiplierAdditionPerLevel: 0.01
+  prestigeAbilityUnlockFSMultiplierAddition: 0.01
+  prestigeAbilityFSMultiplierPerLevel: 0.001
+  prestigeAbilityMaxFSMultiplierAddition: 0.01
+  sizableFighterScoreFractionGap: 2
+  levelScaleForLifebar: 0.2
+  levelScaleForAttack: 0.2
+  baseLevelUpXpPerTier: 64000000f4010000e8030000d0070000
+  nextLevelXpMultiplier: 1.05
+  levelingMultiplierPerTier:
+  - 1.01
+  - 1.03
+  - 1.05
+  - 1.07
+  xpResetThresholds:
+  - level: 5
+    baseLevelUpXpMultiplier: 5
+  - level: 11
+    baseLevelUpXpMultiplier: 15
+  - level: 21
+    baseLevelUpXpMultiplier: 30
+  - level: 31
+    baseLevelUpXpMultiplier: 60
+  - level: 41
+    baseLevelUpXpMultiplier: 150
+  - level: 3
+    baseLevelUpXpMultiplier: 1.5
+  xpGrantedOnLossFraction: 0.02
+  maxXpGrantedOnLoss: 200
+  replayRewardMultiplier: 0.2
+  replayXpMultiplier: 0.2
+  storyModeReplayXpMultiplier: 1
+  teamXpMultiplier: 1
+  baseLevelUpPlayerXp: 250
+  nextLevelPlayerXpMultiplier: 1.15
+  playerLevelingMultiplier: 1
+  playerXpResetThresholds:
+  - level: 2
+    baseLevelUpXpMultiplier: 1
+  - level: 3
+    baseLevelUpXpMultiplier: 4
+  - level: 5
+    baseLevelUpXpMultiplier: 20
+  - level: 61
+    baseLevelUpXpMultiplier: 50000
+  unlockChatAtLevel: 5
+  unlockSocialAtLevel: 5
+  unlockPrizeFightsAtLevel: 6
+  unlockDailyEventsAtLevel: 7
+  unlockSyncPvpAtLevel: 10
+  unlockRiftBattlesAtLevel: 25
+  unlockDeploymentsAtLevel: 12
+  unlockAchievementsAtLevel: 3
+  unlockFightAssistAtLevel: 20
+  unlockGearLoadoutsAtLevel: 30
+  prestigeAbilityLevelsPerTier: 02000000040000000a00000014000000
+  percentChanceForShinyPerRarityTier:
+  - 0.0025
+  - 0.005
+  - 0.01
+  - 0.02
+  maximumMonthsTimerDisplay: 3
+  statCaps:
+  - type: 5
+    cap: 1
+  - type: 6
+    cap: 2
+  - type: 7
+    cap: 1
+  - type: 8
+    cap: 1
+  - type: 9
+    cap: 0.5
+  - type: 10
+    cap: 0.5
+  - type: 11
+    cap: 0.5
+  - type: 13
+    cap: 0.5
+  - type: 15
+    cap: 0.5
+  - type: 16
+    cap: 0.2
+  - type: 17
+    cap: 0.5
+  - type: 18
+    cap: 1
+  - type: 19
+    cap: 0.5
+  - type: 20
+    cap: 1
+  - type: 21
+    cap: 1
+  - type: 22
+    cap: 2
+  specialsCooldownWhileTaggedOut: 1
+  teamSuperbarGainOnPointGainMultiplier: 0.2
+  tagInCooldown: 10
+  assistCooldown: 10
+  energyCooldownSeconds: 600
+  critChance:
+    value: 102
+  critDamageMultiplier:
+    value: 410
+  comboCounterResetFrameDelay: 25
+  queuedInputTimeLimit: 4
+  defaultEnemyAIProfile: {fileID: 11400000, guid: 87ddadc724a9e1b42bcae453eb62af46, type: 2}
+  defaultAutoplayAIProfile: {fileID: 11400000, guid: 87ddadc724a9e1b42bcae453eb62af46, type: 2}
+  hitpauseAdjustment: 4
+  evadeHitpause: 10
+  chipDamageMultiplier:
+    value: 409
+  redLifeMultiplier:
+    value: 1365
+  elementalAdvantageDamageMultiplier:
+    value: 2457
+  elementalDisadvantageDamageMultiplier:
+    value: 1638
+  showDetailedChevrons: 1
+  lightModifierMultiplier:
+    value: 1024
+  heavyModifierMultiplier:
+    value: 4096
+  armorPercent:
+    value: 40960
+  armorMaxStack: 4
+  barrierMaxStack: 4
+  barrierDamageBlockPercent:
+    value: 20480
+  bleedPercentHealth:
+    value: 2048
+  bleedPercentAttack:
+    value: 30720
+  bleedMaxStack: 4
+  blessingMaxStack: 4
+  blessingHealPercent:
+    value: 20480
+  deathMarkBlockProficiencyPercentRemoval:
+    value: 102400
+  deathMarkCritDamagePercentIncrease:
+    value: 102400
+  enragePercent:
+    value: 40960
+  enrageMaxStack: 4
+  evasionMaxStack: 4
+  hastePercent:
+    value: 204800
+  powerSurgeMaxStack: 4
+  powerSurgeDamagePercent:
+    value: 10240
+  precisionMaxStack: 4
+  autoBlockMaxStack: 4
+  autoBlockActivationChance:
+    value: 20480
+  guardBreakMaxStack: 4
+  guardBreakActivationChance:
+    value: 20480
+  regenPercent:
+    value: 2048
+  regenMaxStack: 4
+  slowPercent:
+    value: 102400
+  slowMaxStack: 4
+  thornsMaxStack: 4
+  thornsReflectPercent:
+    value: 40960
+  miasmaMaxStack: 4
+  miasmaDrainPercent:
+    value: 2048
+  witherPercent:
+    value: 10240
+  witherMaxStack: 4
+  slimeDamagePercent:
+    value: 4096
+  slimeMaxStack: 4
+  fatigueStunDuration: 2
+  fightDurationInSeconds: 180
+  damageIconsAmountPerTier: 040000000500000006000000
+  guardMeterRegenPerFrame:
+    value: 82
+  chargeAttackGuardMeterDamage:
+    value: 163840
+  guardMeterMaxValue:
+    value: 204800
+  guardMeterDamageFactor:
+    value: 614
+  guardMeterBlockbusterDamageFactor:
+    value: 1126
+  guardMeterLockoutLengthFrames: 220
+  guardCrushExtraHitstop: 10
+  wakeupThrowInvincibilityFrames: 30
+  competitiveSuperDamageMultipier:
+    value: 1536
+  competitiveSpecialDamageMultiplier:
+    value: 1536
+  competitiveSekhmetDamageMultiplier:
+    value: 1024
+  aiSkillTree: {fileID: 114045759473903508, guid: 68f579eb50e02274c8b3c9917259a741, type: 2}
+  leaderboardEventWinStreakModifiers:
+  - scoreMultiplier: 1
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 3
+    enemyFSMultiplierAddition: 0
+  - scoreMultiplier: 1.25
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 3
+    enemyFSMultiplierAddition: 0
+  - scoreMultiplier: 1.5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 3
+    enemyFSMultiplierAddition: 0
+  - scoreMultiplier: 1.75
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 3
+    enemyFSMultiplierAddition: 0
+  - scoreMultiplier: 2
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 3
+    enemyFSMultiplierAddition: 0
+  - scoreMultiplier: 2.25
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 4
+    enemyFSMultiplierAddition: 0
+  - scoreMultiplier: 2.5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 4
+    enemyFSMultiplierAddition: 0
+  - scoreMultiplier: 2.75
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 4
+    enemyFSMultiplierAddition: 0
+  - scoreMultiplier: 3
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 4
+    enemyFSMultiplierAddition: 0
+  - scoreMultiplier: 3.25
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 4
+    enemyFSMultiplierAddition: 0
+  - scoreMultiplier: 3.5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0
+  - scoreMultiplier: 3.75
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0
+  - scoreMultiplier: 4
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0
+  - scoreMultiplier: 4.25
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0
+  - scoreMultiplier: 4.5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0
+  - scoreMultiplier: 4.75
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_10.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_10.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 1.2
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.05
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_20.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_20.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 1.3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.1
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_30.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_30.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 1.4
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.15
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_40.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_40.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 1.5
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.2
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_50.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_50.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 1.6
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.25
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_60.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_60.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 1.7
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.3
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_70.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_70.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 1.8
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.35
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_80.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_80.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 1.9
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.4
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_90.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_90.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 2
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.45
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t2_100.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t2_100.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 2.1
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.5
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t2_110.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t2_110.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 2.2
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.55
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t2_120.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t2_120.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 2.3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.6
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t2_130.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t2_130.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 2.4
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.65
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t2_140.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t2_140.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 2.5
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.7
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t2_150.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t2_150.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 2.6
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.75
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t2_160.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t2_160.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 2.7
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.8
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t2_170.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t2_170.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 2.8
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.85
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t2_180.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t2_180.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 2.9
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.9
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t2_190.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t2_190.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 0.95
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t3_200.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t3_200.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 1
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t3_220.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t3_220.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 1.05
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t3_240.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t3_240.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 1.1
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t3_260.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t3_260.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 1.15
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t3_280.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t3_280.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 1.2
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t4_300.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t4_300.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 1.25
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t4_320.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t4_320.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 1.25
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t4_340.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t4_340.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 1.25
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t4_360.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t4_360.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 1.25
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t4_380.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t4_380.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 1.25
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t5_400.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t5_400.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 1.25
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t5_420.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t5_420.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 1.25
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t5_440.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t5_440.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 1.25
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t5_460.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t5_460.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 1.25
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t5_480.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t5_480.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 1.25
+  - scoreMultiplier: 5
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t6_500.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t6_500.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    fsPercentMin: 0.8
+    fsPercentMax: 3
+    hardFightOffset: 10
+    AILevel: 5
+    enemyFSMultiplierAddition: 1.25
+  defaultTargetFighterScores: {fileID: 11400000, guid: e7f896e35f4aa454589ad7483c2cdc4a, type: 2}
+  defenseHistoryFightCap: 10
+  leaderboardDefenderWinScoreMultiplier: 0.5
+  leaderboardDefenderLossScoreMultiplier: 0.1
+  leaderboardDefenseBonusFightThreshold: 2
+  leaderboardDefenseBonusMultiplierPerFight: 0.5
+  leaderboardDefenseBonusMaxMultiplier: 5
+  highWinStreakCheckpoints: 1e00000028000000320000003c00000046000000500000005a00000064000000
+  leaderboardMatchmakingRangeReductionFactor: 0.2
+  riftBattleMaxCharacterUseCount: 1
+  riftBattleHistoryFightCap: 10
+  riftBattleBaseCoinsForBattleRewardWin: 25
+  riftBattleAttemptsCount: 2
+  riftBattleScoreDivisorForBattleReward: 10000
+  riftBattleBaseCoinsForBattleRewardLoss: 10
+  riftBattleEloKFactor: 60
+  riftBattleMatchmakingLoosening: 0.01
+  riftBattleMatchmakingUpperBound: 1.5
+  riftBattleMatchmakingProtectionInitialLevelSpread: 4
+  riftBattleMatchmakingProtectionLevelSpreadPerWin: 4
+  riftBattleWinStreakHourDuration: 24
+  riftBattleDefenseOpponentLossMultiplier: 1
+  riftBattleDefenseOpponentWinMultiplier: 1
+  riftBattleRevengePlayerWinMultiplier: 1.5
+  riftBattleRevengePlayerLossMultiplier: 1.5
+  riftBattleRevengeOpponentWinMultiplier: 1.5
+  riftBattleRevengeOpponentLossMultiplier: 1.5
+  riftBattleDupePenalityModifiers:
+  - requiredDupeCount: 2
+    dupePenalityModifier:
+      resourcePath: assets/modifiers/matchmodifiers/fadedfacsimiles/sa_match_fadedfacsimiles_25.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+  - requiredDupeCount: 3
+    dupePenalityModifier:
+      resourcePath: assets/modifiers/matchmodifiers/fadedfacsimiles/sa_match_fadedfacsimiles_50.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+  riftBattleWinStreakModifiers:
+  - scoreMultiplier: 1
+    additionalPlayerMatchModifiers: []
+    additionalEnemyMatchModifiers: []
+    displayHealthPercentGain: 0
+    displayAttackPercentGain: 0
+  - scoreMultiplier: 1
+    additionalPlayerMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_10.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    additionalEnemyMatchModifiers: []
+    displayHealthPercentGain: 0
+    displayAttackPercentGain: 10
+  - scoreMultiplier: 1
+    additionalPlayerMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_10.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_10.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    additionalEnemyMatchModifiers: []
+    displayHealthPercentGain: 10
+    displayAttackPercentGain: 10
+  - scoreMultiplier: 1
+    additionalPlayerMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_10.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_10.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    additionalEnemyMatchModifiers: []
+    displayHealthPercentGain: 10
+    displayAttackPercentGain: 10
+  - scoreMultiplier: 1
+    additionalPlayerMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_20.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_10.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    additionalEnemyMatchModifiers: []
+    displayHealthPercentGain: 20
+    displayAttackPercentGain: 10
+  - scoreMultiplier: 1
+    additionalPlayerMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_20.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_10.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    additionalEnemyMatchModifiers: []
+    displayHealthPercentGain: 20
+    displayAttackPercentGain: 10
+  - scoreMultiplier: 1
+    additionalPlayerMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_20.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_20.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    additionalEnemyMatchModifiers: []
+    displayHealthPercentGain: 20
+    displayAttackPercentGain: 20
+  - scoreMultiplier: 1
+    additionalPlayerMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_20.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_20.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    additionalEnemyMatchModifiers: []
+    displayHealthPercentGain: 20
+    displayAttackPercentGain: 20
+  - scoreMultiplier: 1
+    additionalPlayerMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_30.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_20.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    additionalEnemyMatchModifiers: []
+    displayHealthPercentGain: 30
+    displayAttackPercentGain: 20
+  - scoreMultiplier: 1
+    additionalPlayerMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_30.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_20.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    additionalEnemyMatchModifiers: []
+    displayHealthPercentGain: 30
+    displayAttackPercentGain: 20
+  - scoreMultiplier: 1
+    additionalPlayerMatchModifiers:
+    - resourcePath: assets/modifiers/streakmodifiers/attack/sa_match_atk_t1_30.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    - resourcePath: assets/modifiers/streakmodifiers/health/sa_match_hp_t1_30.prefab
+      resourceLoadType: 1
+      bundleName: signatureabilities
+    additionalEnemyMatchModifiers: []
+    displayHealthPercentGain: 30
+    displayAttackPercentGain: 30
+  riftBattleRatingResetThresholds:
+  - requiredRating: 1000
+    ratingToResetTo: 1000
+  - requiredRating: 1200
+    ratingToResetTo: 1150
+  - requiredRating: 1400
+    ratingToResetTo: 1350
+  riftBattleFightWinPoints: 1000
+  riftBattleFightPointsHealthMultiplier: 100
+  riftBattleFightPointsPerSecondRemaining: 2
+  riftBattleFightPointsForNoDeaths: 200
+  riftBattleFightPointsForBlockbusterFinish: 100
+  riftBattleFightComboPointsPerHit: 1
+  riftBattleFightComboPointsMaxHits: 50
+  riftBattleEndNoLossesBonus: 2500
+  riftBattleEndAttackerDiversityBonus: 1000
+  leaderboardMatchmakingDBTimeoutMs: 600
+  riftBattleMatchmakingDBTimeoutMs: 900
+  matchmakingHttpRequestTimeoutSeconds: 90
+  syncPvpMatchmakingFSPercentageRange: 0.2
+  syncPvpMatchmakingBacklistTimeInSeconds: 60
+  syncPvpPingLimitOptions: 6400000096000000fa000000f4010000
+  syncPvpPingLimitDefaultIndex: 3
+  syncPvpFrameDelayMin: 4
+  syncPvpFrameDelayMax: 12
+  syncPvpFrameDelayDefault: 8
+  chatEnabled: 1
+  chatChannelGroups:
+  - name: en
+    channelCount: 500
+  - name: es
+    channelCount: 100
+  - name: ja
+    channelCount: 100
+  - name: ru
+    channelCount: 100
+  - name: ko
+    channelCount: 100
+  - name: fr
+    channelCount: 50
+  - name: de
+    channelCount: 50
+  - name: pt
+    channelCount: 50
+  - name: zh-cn
+    channelCount: 50
+  chatIdealChannelOccupancy: 200
+  chatMaxChannelOccupancy: 250
+  reportCountForChatBan: 20
+  reportPeriodNumOfDays: 1
+  chatBanNumOfDays: 28
+  maxNumLoadouts: 10

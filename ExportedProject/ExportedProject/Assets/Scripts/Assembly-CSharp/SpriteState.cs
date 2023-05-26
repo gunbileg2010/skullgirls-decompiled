@@ -1,0 +1,6 @@
+public enum SpriteState
+{
+	SPRITE_STATE_NONE = 0,
+	SPRITE_STATE_AIR = 1,
+	SPRITE_STATE_GROUND = 2
+}

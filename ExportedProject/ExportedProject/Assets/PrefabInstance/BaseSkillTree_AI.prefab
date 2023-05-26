@@ -1,0 +1,1439 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1723508155941435
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224652107013393538}
+  - component: {fileID: 114045759473903508}
+  m_Layer: 5
+  m_Name: BaseSkillTree_AI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224652107013393538
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723508155941435}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224128264818713581}
+  - {fileID: 224120996787355628}
+  - {fileID: 224561345152352180}
+  - {fileID: 224372558696590960}
+  - {fileID: 224273542135864326}
+  - {fileID: 224917058666121113}
+  - {fileID: 224546597117467465}
+  - {fileID: 224835328928750199}
+  - {fileID: 224653446110542524}
+  - {fileID: 224035665397609951}
+  - {fileID: 224687743785291152}
+  - {fileID: 224427476797490725}
+  - {fileID: 224489733451089039}
+  - {fileID: 224029831993717553}
+  - {fileID: 224718096089280363}
+  - {fileID: 224540795336877158}
+  - {fileID: 224869840494362048}
+  - {fileID: 224942693132602284}
+  - {fileID: 224167597618354807}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 32.58235, y: -53.711296}
+  m_SizeDelta: {x: 1213, y: 403}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114045759473903508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723508155941435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e308a97f39425175db949e719213ac, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  guid: c29ed15d-3410-47e7-baee-942ebb663f72
+  rootNode: {fileID: 114730425463386495}
+  purchaseOrder:
+  - {fileID: 114730425463386495}
+  - {fileID: 114892136868373245}
+  - {fileID: 114639768840850330}
+  - {fileID: 114369426646187157}
+  - {fileID: 114542138572038300}
+  - {fileID: 114311338354341457}
+  - {fileID: 114945080532660323}
+  - {fileID: 114414214967497740}
+  - {fileID: 114441573313470601}
+  - {fileID: 114792553128104903}
+  - {fileID: 114455396203470208}
+  - {fileID: 114468989826303017}
+  - {fileID: 114082252457993555}
+  - {fileID: 114298036350283847}
+  - {fileID: 114260810626747183}
+  - {fileID: 114474466309381345}
+  - {fileID: 114963358089933247}
+  - {fileID: 114496588269195080}
+  - {fileID: 114240412995558354}
+--- !u!1 &1830914170488224
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224128264818713581}
+  - component: {fileID: 114730425463386495}
+  m_Layer: 5
+  m_Name: N0_Start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224128264818713581
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830914170488224}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114730425463386495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830914170488224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114892136868373245}
+  guid: d1a4568a-3ed0-4490-b2ff-7327286c9cf5
+  humanReadableGuid:
+  nodeType: 6
+  value: 1
+  featureSetIndex: 0
+  fsMultiplierAddition: 0
+  skillPointCost: 0
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 0
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1058377839547643
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224120996787355628}
+  - component: {fileID: 114892136868373245}
+  m_Layer: 5
+  m_Name: N1_Char
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224120996787355628
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058377839547643}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -2.8994305E-05, y: 100}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114892136868373245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058377839547643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114639768840850330}
+  guid: 0ad0bc41-c3da-4a90-aa94-4cfd4e4582eb
+  humanReadableGuid:
+  nodeType: 20
+  value: 1
+  featureSetIndex: 0
+  fsMultiplierAddition: 0.02
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 4
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1417763124665063
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224561345152352180}
+  - component: {fileID: 114639768840850330}
+  m_Layer: 5
+  m_Name: N2_Slot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224561345152352180
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417763124665063}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 200}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114639768840850330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417763124665063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114369426646187157}
+  guid: 6aa6b8e0-d71c-42fb-b10b-f3e3bbb2e657
+  humanReadableGuid:
+  nodeType: 24
+  value: 1
+  featureSetIndex: 0
+  fsMultiplierAddition: 0.03
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 6
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1744192612784483
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224372558696590960}
+  - component: {fileID: 114369426646187157}
+  m_Layer: 5
+  m_Name: N3_SA1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224372558696590960
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744192612784483}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 300}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114369426646187157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744192612784483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114542138572038300}
+  guid: 23dc3b34-a2af-4f61-bd32-c916df37902e
+  humanReadableGuid:
+  nodeType: 2
+  value: 1
+  featureSetIndex: 0
+  fsMultiplierAddition: 0.02
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 8
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1604904765962977
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224273542135864326}
+  - component: {fileID: 114542138572038300}
+  m_Layer: 5
+  m_Name: N4_2GP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224273542135864326
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604904765962977}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 400}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114542138572038300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604904765962977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114311338354341457}
+  guid: 2021aabe-fb61-4788-860e-255aa35efc42
+  humanReadableGuid:
+  nodeType: 23
+  value: 2
+  featureSetIndex: 0
+  fsMultiplierAddition: 0.02
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 10
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1325392451148379
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224917058666121113}
+  - component: {fileID: 114311338354341457}
+  m_Layer: 5
+  m_Name: N5_SA1+
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224917058666121113
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325392451148379}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 500}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114311338354341457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325392451148379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114945080532660323}
+  guid: c693d028-f021-4b20-bd44-fc108493709d
+  humanReadableGuid:
+  nodeType: 3
+  value: 1
+  featureSetIndex: 0
+  fsMultiplierAddition: 0.01
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 12
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1520794260093167
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224546597117467465}
+  - component: {fileID: 114945080532660323}
+  m_Layer: 5
+  m_Name: N6_2GP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224546597117467465
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520794260093167}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 600}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114945080532660323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520794260093167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114414214967497740}
+  guid: 69d76e47-9eb8-48f6-858d-b16579e93f4f
+  humanReadableGuid:
+  nodeType: 23
+  value: 2
+  featureSetIndex: 0
+  fsMultiplierAddition: 0.02
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 14
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1914229460925388
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224835328928750199}
+  - component: {fileID: 114414214967497740}
+  m_Layer: 5
+  m_Name: N7_Combo+
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224835328928750199
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914229460925388}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 700}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114414214967497740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914229460925388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114441573313470601}
+  guid: 67f2ee5f-7c0b-431e-823a-496dbd760c03
+  humanReadableGuid:
+  nodeType: 17
+  value: 1
+  featureSetIndex: 0
+  fsMultiplierAddition: 0.02
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 16
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1531157403354191
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224653446110542524}
+  - component: {fileID: 114441573313470601}
+  m_Layer: 5
+  m_Name: N8_Juggle+
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224653446110542524
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531157403354191}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 800}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114441573313470601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531157403354191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114792553128104903}
+  guid: fddbaf97-ee07-41b7-bd21-0d19efc31e66
+  humanReadableGuid:
+  nodeType: 19
+  value: 1
+  featureSetIndex: 0
+  fsMultiplierAddition: 0.02
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 18
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1871001514985446
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224035665397609951}
+  - component: {fileID: 114792553128104903}
+  m_Layer: 5
+  m_Name: N9_Slot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224035665397609951
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871001514985446}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 900}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114792553128104903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871001514985446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114455396203470208}
+  guid: b511ea1b-9167-4e84-9e6a-4c86cfbfdc19
+  humanReadableGuid:
+  nodeType: 24
+  value: 1
+  featureSetIndex: 0
+  fsMultiplierAddition: 0.05
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 20
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1299326467422414
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224687743785291152}
+  - component: {fileID: 114455396203470208}
+  m_Layer: 5
+  m_Name: N10_SA1++
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224687743785291152
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299326467422414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1000}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114455396203470208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299326467422414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114468989826303017}
+  guid: 3b141bea-eb42-4c18-b485-2baee162632b
+  humanReadableGuid:
+  nodeType: 3
+  value: 1
+  featureSetIndex: 0
+  fsMultiplierAddition: 0.01
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 22
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1522176499513845
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224427476797490725}
+  - component: {fileID: 114468989826303017}
+  m_Layer: 5
+  m_Name: N11_SA2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224427476797490725
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522176499513845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1100}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114468989826303017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522176499513845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114082252457993555}
+  guid: b906e3ab-21be-49f3-8ae2-b2f9ea952bef
+  humanReadableGuid:
+  nodeType: 2
+  value: 2
+  featureSetIndex: 1
+  fsMultiplierAddition: 0.03
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 24
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1627965652569558
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224489733451089039}
+  - component: {fileID: 114082252457993555}
+  m_Layer: 5
+  m_Name: N12_2GP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224489733451089039
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627965652569558}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1200}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114082252457993555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627965652569558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114298036350283847}
+  guid: af5cb604-494c-4002-bacc-37da44dfd5f5
+  humanReadableGuid:
+  nodeType: 23
+  value: 2
+  featureSetIndex: 0
+  fsMultiplierAddition: 0.02
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 26
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1619949014585471
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224029831993717553}
+  - component: {fileID: 114298036350283847}
+  m_Layer: 5
+  m_Name: N13_SA2+
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224029831993717553
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619949014585471}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1300}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114298036350283847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619949014585471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114260810626747183}
+  guid: 349be1ff-c8df-4b3e-bf2a-03d9e797c65e
+  humanReadableGuid:
+  nodeType: 3
+  value: 2
+  featureSetIndex: 1
+  fsMultiplierAddition: 0.02
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 28
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1035269050557626
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224718096089280363}
+  - component: {fileID: 114260810626747183}
+  m_Layer: 5
+  m_Name: N14_Slot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224718096089280363
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035269050557626}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1400}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114260810626747183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035269050557626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114474466309381345}
+  guid: 238ff0d6-0a45-4e3d-9e08-77d61532ed36
+  humanReadableGuid:
+  nodeType: 24
+  value: 1
+  featureSetIndex: 0
+  fsMultiplierAddition: 0.05
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 30
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1089162305668881
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224540795336877158}
+  - component: {fileID: 114474466309381345}
+  m_Layer: 5
+  m_Name: N15_2GP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224540795336877158
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089162305668881}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1500}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114474466309381345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089162305668881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114963358089933247}
+  guid: d2cf6ce3-f8ee-4312-8566-c69ef04155d4
+  humanReadableGuid:
+  nodeType: 23
+  value: 2
+  featureSetIndex: 0
+  fsMultiplierAddition: 0.02
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 32
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1686541849996625
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224869840494362048}
+  - component: {fileID: 114963358089933247}
+  m_Layer: 5
+  m_Name: N16_Charge+
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224869840494362048
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686541849996625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1600}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114963358089933247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686541849996625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114496588269195080}
+  guid: 29243d89-3dca-4125-9028-0081d53c2b3c
+  humanReadableGuid:
+  nodeType: 16
+  value: 1
+  featureSetIndex: 0
+  fsMultiplierAddition: 0.04
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 34
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1372027474297757
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224942693132602284}
+  - component: {fileID: 114496588269195080}
+  m_Layer: 5
+  m_Name: N17_SA2++
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224942693132602284
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372027474297757}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1700}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114496588269195080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372027474297757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections:
+  - {fileID: 114240412995558354}
+  guid: 90f67b2b-746e-40b2-96a7-07e4a920d839
+  humanReadableGuid:
+  nodeType: 3
+  value: 2
+  featureSetIndex: 1
+  fsMultiplierAddition: 0.02
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 36
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0
+--- !u!1 &1380355450866453
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224167597618354807}
+  - component: {fileID: 114240412995558354}
+  m_Layer: 5
+  m_Name: N18_2GP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224167597618354807
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380355450866453}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 224652107013393538}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1800}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114240412995558354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380355450866453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b89802873ea2c624d8ebc8b637ec20, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  connections: []
+  guid: cf410bc2-4dfc-49a9-a777-5bb1bcdc3c8c
+  humanReadableGuid:
+  nodeType: 23
+  value: 2
+  featureSetIndex: 0
+  fsMultiplierAddition: 0.02
+  skillPointCost: 1
+  cost:
+    currencyType: 0
+    amount: 0
+  shortcutCost:
+    currencyType: 1
+    amount: 0
+  scItemCodes: []
+  hcItemCodes: []
+  isPriority: 1
+  requiredLevel: 38
+  mutuallyExclusiveNodes: []
+  multiParentNodes: []
+  isFloating: 0
+  isHidden: 0

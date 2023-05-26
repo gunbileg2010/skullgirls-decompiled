@@ -1,0 +1,11 @@
+public enum WinState : byte
+{
+	NO_WINNER_YET = 0,
+	P1_WIN_TIMEOUT = 1,
+	P2_WIN_TIMEOUT = 2,
+	DRAW_GAME = 3,
+	P1_WIN_KO = 4,
+	P2_WIN_KO = 5,
+	ONLINE_DISCONNECTED = 6,
+	CONCEDED = 7
+}

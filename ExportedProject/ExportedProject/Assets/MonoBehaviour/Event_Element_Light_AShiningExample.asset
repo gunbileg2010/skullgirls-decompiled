@@ -1,0 +1,383 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898af8aea5d914892a7243cbdceaa01b, type: 3}
+  m_Name: Event_Element_Light_AShiningExample
+  m_EditorClassIdentifier:
+  guid: 416b319f-2bd3-4e52-88aa-3c3292c1bfb3
+  humanReadableGuid: pf-light
+  eventNotification:
+  showcasedLoots: []
+  randomDropLoots: []
+  actSelectContent:
+    title: Leaderboard_Title_Light
+    subtitle:
+    description:
+    coverArtResource:
+      resourcePath: Chapter_Element_LEAD_Light
+      resourceLoadType: 0
+      bundleName:
+    talkingHead: {fileID: 11400000, guid: f5134e4413b18ce40b39e0d1ec988959, type: 2}
+    talkingHeadEmote: Neutral
+    orderPriority: 2004
+  difficulty: -1
+  xpMultiplier: 1
+  fightRequirement:
+    energyRequirement: 4
+    fightConstraints:
+    - {fileID: 11400000, guid: a88f54bcab014554cb48a4417f9cc375, type: 2}
+    playerMaxTeamSize: 3
+  defenseTeamConstraints: []
+  enemyFightModifiers:
+  - resourcePath: assets/modifiers/matchmodifiers/sa_match_emissionspectrum.prefab
+    resourceLoadType: 1
+    bundleName: signatureabilities
+  playerFightModifiers: []
+  minScore: 900000
+  scoreBasedRewards:
+  - rewardType: 1
+    isImmediate: 1
+    value: 150000
+    loots:
+    - lootType: 10
+      amount: 5
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 11400000, guid: 6d8aa0f517a3eda488d17d929cfff325, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 0
+      elementType: 5
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+  - rewardType: 1
+    isImmediate: 1
+    value: 450000
+    loots:
+    - lootType: 10
+      amount: 10
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 11400000, guid: 6d8aa0f517a3eda488d17d929cfff325, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 11400000, guid: 9ab59294933b80c4daa611b42bd415d6, type: 2}
+      rarityTier: 0
+      elementType: 5
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+  - rewardType: 1
+    isImmediate: 1
+    value: 900000
+    loots:
+    - lootType: 10
+      amount: 15
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 11400000, guid: 6d8aa0f517a3eda488d17d929cfff325, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 0
+      elementType: 5
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+  - rewardType: 1
+    isImmediate: 1
+    value: 1500000
+    loots:
+    - lootType: 10
+      amount: 20
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 11400000, guid: aa8eb23928e9a484da9fdb39c80b23c1, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 0
+      elementType: 5
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+  - rewardType: 1
+    isImmediate: 1
+    value: 2100000
+    loots:
+    - lootType: 10
+      amount: 30
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 0}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 0
+      elementType: 5
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+  - rewardType: 1
+    isImmediate: 1
+    value: 2700000
+    loots:
+    - lootType: 4
+      amount: 1
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 11400000, guid: 4d25b20b447b55b428f520cc35fdaadc, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 11400000, guid: 9ab59294933b80c4daa611b42bd415d6, type: 2}
+      rarityTier: 0
+      elementType: 5
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+    - lootType: 10
+      amount: 40
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 0}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 11400000, guid: 9ab59294933b80c4daa611b42bd415d6, type: 2}
+      rarityTier: 0
+      elementType: 5
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+  - rewardType: 1
+    isImmediate: 1
+    value: 3300000
+    loots:
+    - lootType: 10
+      amount: 50
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 0}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 0
+      elementType: 5
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+  - rewardType: 1
+    isImmediate: 1
+    value: 4200000
+    loots:
+    - lootType: 10
+      amount: 60
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 0}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 0
+      elementType: 5
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+  - rewardType: 1
+    isImmediate: 1
+    value: 5100000
+    loots:
+    - lootType: 10
+      amount: 80
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 0}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 0
+      elementType: 5
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+  - rewardType: 1
+    isImmediate: 1
+    value: 6000000
+    loots:
+    - lootType: 4
+      amount: 1
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 11400000, guid: 4d25b20b447b55b428f520cc35fdaadc, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 11400000, guid: 9ab59294933b80c4daa611b42bd415d6, type: 2}
+      rarityTier: 0
+      elementType: 5
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+    - lootType: 10
+      amount: 100
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 0}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 11400000, guid: 9ab59294933b80c4daa611b42bd415d6, type: 2}
+      rarityTier: 0
+      elementType: 5
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+  percentileRewards:
+  - rewardType: 2
+    isImmediate: 0
+    value: 100
+    loots:
+    - lootType: 6
+      amount: 200
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 0}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 1
+      elementType: 0
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+    - lootType: 4
+      amount: 1
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 11400000, guid: 4d25b20b447b55b428f520cc35fdaadc, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 0
+      elementType: 0
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+  - rewardType: 2
+    isImmediate: 0
+    value: 60
+    loots:
+    - lootType: 6
+      amount: 500
+      gear: {fileID: 11400000, guid: 899235ff7a412bc4793a26b942e5114e, type: 2}
+      character: {fileID: 0}
+      reel: {fileID: 11400000, guid: 3dd8810302d4ec6428e7e9d4ff91d198, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 1
+      elementType: 3
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+    - lootType: 4
+      amount: 1
+      gear: {fileID: 11400000, guid: 899235ff7a412bc4793a26b942e5114e, type: 2}
+      character: {fileID: 0}
+      reel: {fileID: 11400000, guid: 4d25b20b447b55b428f520cc35fdaadc, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 0
+      elementType: 3
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+  - rewardType: 2
+    isImmediate: 0
+    value: 30
+    loots:
+    - lootType: 6
+      amount: 200
+      gear: {fileID: 11400000, guid: 899235ff7a412bc4793a26b942e5114e, type: 2}
+      character: {fileID: 0}
+      reel: {fileID: 11400000, guid: 3dd8810302d4ec6428e7e9d4ff91d198, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 2
+      elementType: 3
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+    - lootType: 4
+      amount: 1
+      gear: {fileID: 11400000, guid: 899235ff7a412bc4793a26b942e5114e, type: 2}
+      character: {fileID: 0}
+      reel: {fileID: 11400000, guid: 4d25b20b447b55b428f520cc35fdaadc, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 0
+      elementType: 3
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+  - rewardType: 2
+    isImmediate: 0
+    value: 10
+    loots:
+    - lootType: 6
+      amount: 500
+      gear: {fileID: 11400000, guid: 899235ff7a412bc4793a26b942e5114e, type: 2}
+      character: {fileID: 0}
+      reel: {fileID: 11400000, guid: 3dd8810302d4ec6428e7e9d4ff91d198, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 2
+      elementType: 3
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+    - lootType: 4
+      amount: 1
+      gear: {fileID: 11400000, guid: 899235ff7a412bc4793a26b942e5114e, type: 2}
+      character: {fileID: 0}
+      reel: {fileID: 11400000, guid: 4d25b20b447b55b428f520cc35fdaadc, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 0
+      elementType: 3
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+  rankRewards:
+  - rewardType: 0
+    isImmediate: 0
+    value: 10
+    loots:
+    - lootType: 6
+      amount: 500
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 11400000, guid: 3dd8810302d4ec6428e7e9d4ff91d198, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 2
+      elementType: 3
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+    - lootType: 4
+      amount: 1
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 11400000, guid: 4d25b20b447b55b428f520cc35fdaadc, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 0
+      elementType: 3
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}
+    - lootType: 11
+      amount: 1
+      gear: {fileID: 0}
+      character: {fileID: 0}
+      reel: {fileID: 11400000, guid: 3dd8810302d4ec6428e7e9d4ff91d198, type: 2}
+      consumable: {fileID: 0}
+      baseCharacter: {fileID: 0}
+      rarityTier: 2
+      elementType: 5
+      nodeModifier: {fileID: 0}
+      voucherDenomination: 0
+      nestedLootTable: {fileID: 0}

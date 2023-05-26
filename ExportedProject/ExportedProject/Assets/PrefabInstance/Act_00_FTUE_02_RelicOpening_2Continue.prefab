@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1517140704005936
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4075953470393100}
+  - component: {fileID: 114011480968748081}
+  - component: {fileID: 114203091023065492}
+  - component: {fileID: 114458462327875690}
+  - component: {fileID: 114019209399114585}
+  - component: {fileID: 114552980959131742}
+  - component: {fileID: 114164971928090166}
+  - component: {fileID: 114126046922212242}
+  - component: {fileID: 114103742928404817}
+  - component: {fileID: 114034428871524757}
+  - component: {fileID: 114856926208556770}
+  m_Layer: 0
+  m_Name: Act_00_FTUE_02_RelicOpening_2Continue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4075953470393100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517140704005936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.0027328, y: 20.401947, z: -24.111328}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114011480968748081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517140704005936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a55ab982c24c77ff2e5338a021c2061, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  actions:
+  - {fileID: 114126046922212242}
+  - {fileID: 114164971928090166}
+  - {fileID: 114203091023065492}
+  - {fileID: 114019209399114585}
+  - {fileID: 114034428871524757}
+  - {fileID: 114552980959131742}
+  - {fileID: 114103742928404817}
+  - {fileID: 114458462327875690}
+  - {fileID: 114856926208556770}
+--- !u!114 &114203091023065492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517140704005936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73422622d418236866765c3b0e0d48a0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stateName: Splash
+  clearHistory: 1
+  withoutTransition: 0
+--- !u!114 &114458462327875690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517140704005936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49f6066fa378d8db8effe6e88f9e7457, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  popupData: {fileID: 11400000, guid: f0780f67267c7b444bdb463777701288, type: 2}
+  popupText:
+  talkingHead: {fileID: 0}
+  talkingHeadEmote:
+--- !u!114 &114019209399114585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517140704005936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7224b9b43931a2d0eb5180fa4c8ec6ad, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  actionDisplay: {fileID: 0}
+  actionPromptText:
+  tutorialIndications: []
+  stateName: Splash
+--- !u!114 &114552980959131742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517140704005936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 111efefe411864b489c86616eb05995e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  elementsToShow:
+  currenciesToShow:
+  characterContex: {fileID: 0}
+  immediate: 0
+--- !u!114 &114164971928090166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517140704005936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4164fc0bc4d5a4e85034de25e3684a0b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  show: 0
+--- !u!114 &114126046922212242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517140704005936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b489b9d4cd9bd656344c2ad8faf3e36c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  active: 1
+--- !u!114 &114103742928404817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517140704005936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30666d09ce579a0a3ec4abd0ef56cde3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114034428871524757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517140704005936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae460e92ae1fdd1b0527fb3fc14a4d49, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  gameType: 0
+--- !u!114 &114856926208556770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517140704005936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939bdf8a467966e87ccbbec559999a82, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  isOfflineFight: 0
+  fight: {fileID: 0}
+  act: {fileID: 11400000, guid: 1e6682411466848489dda0eb47d726ff, type: 2}
+  chapter: {fileID: 11400000, guid: 614f04ddebf17274ba65023214f42ddf, type: 2}
+  match: {fileID: 11400000, guid: d30a2cff211904342b2e8ea8b24d08fe, type: 2}

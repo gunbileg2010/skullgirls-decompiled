@@ -1,0 +1,10 @@
+public enum PointType : byte
+{
+	CENTER_POINT = 0,
+	HEAD_POINT = 1,
+	SHOULDER_POINT = 2,
+	HIPS_POINT = 3,
+	KNEES_POINT = 4,
+	FEET_POINT = 5,
+	THROW_VICTIM_ATTACH_POINT = 6
+}

@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1413272286198013
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4459357667288230}
+  - component: {fileID: 114123945402071825}
+  - component: {fileID: 114138643297187958}
+  m_Layer: 0
+  m_Name: MatchChallenge_GainBuffs_25
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4459357667288230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413272286198013}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114123945402071825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413272286198013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98f5af609146f7f65aa3bb0638a9262, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  description: MatchChallenge_GainBuffs_Desc
+  absoluteValue: 1
+  substitutions:
+  - Target
+  triggerEvent: 15
+  additionalTriggerEvents:
+  provokingActors:
+    provokingActor: 0
+    assignedActor: 1
+    assignedActorTeammates: 1
+    enemyActor: 0
+    enemyActorTeammates: 0
+  triggerConditions:
+  - {fileID: 114138643297187958}
+  provokerConditions: []
+  target: 25
+  cannotMeetOrExceedTarget: 0
+--- !u!114 &114138643297187958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413272286198013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfdd793ea907573d82d1eca56932e97c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  id:
+  logicalOperator: 0
+  not: 0
+  enemy: 0
+  point: 0
+  modifierType: 0
+  mode: 0
+  debuff: 0
+  buff: 1
+  notAppliedThisFrame: 0
+  allStrengths: 1
+  modifierStrength: 1
+  ignorePermanent: 0
+  atLeastStackNumber: 0
+  stackValue: -1
+  useContextualModifier: 1
+  appliedByThisSignatureAbility: 0
+  checkInstantModifierType: 0
+  checkModifierId:
+  modifierClass: {fileID: 0}

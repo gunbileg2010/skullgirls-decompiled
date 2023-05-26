@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1370181844107896
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4692613338843899}
+  - component: {fileID: 114704115534162394}
+  - component: {fileID: 114579988967805093}
+  - component: {fileID: 114232913458653985}
+  m_Layer: 0
+  m_Name: MatchChallenge_ReachCombo_25
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4692613338843899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370181844107896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114704115534162394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370181844107896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98f5af609146f7f65aa3bb0638a9262, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  description: MatchChallenge_ReachCombo_Desc
+  absoluteValue: 1
+  substitutions:
+  - COMBO.Count
+  triggerEvent: 35
+  additionalTriggerEvents:
+  provokingActors:
+    provokingActor: 0
+    assignedActor: 0
+    assignedActorTeammates: 0
+    enemyActor: 1
+    enemyActorTeammates: 1
+  triggerConditions:
+  - {fileID: 114579988967805093}
+  - {fileID: 114232913458653985}
+  provokerConditions: []
+  target: 1
+  cannotMeetOrExceedTarget: 0
+--- !u!114 &114579988967805093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370181844107896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9911ff38a56dd55c1e99b609724a7c3b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  id: COMBO
+  logicalOperator: 0
+  not: 0
+  enemy: 0
+  point: 0
+  comparison: 4
+  count: 25
+  useOffByOne: 0
+  anyMultiple: 0
+--- !u!114 &114232913458653985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370181844107896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506f73cee26cbe8f332db50dcf1613e9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

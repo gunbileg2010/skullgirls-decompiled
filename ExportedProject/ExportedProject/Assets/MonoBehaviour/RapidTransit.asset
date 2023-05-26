@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc8c43123f435386bae58595feef1a6, type: 3}
+  m_Name: RapidTransit
+  m_EditorClassIdentifier:
+  environmentAssetPath: assets/stages/rapidtransit/rapidtransit3d.prefab
+  stageSize: {x: 300, y: 125}
+  ambientLightColor: {r: 0.39215687, g: 0.5882353, b: 0.78431374, a: 1}
+  directionalLights: []
+  pointLights:
+  - enabled: 1
+    color: {x: 1.5686275, y: 1.5686275, z: 1.1764706}
+    position: {x: -15.625, y: 168.75, z: 31.25}
+    radius: 937.5
+  - enabled: 1
+    color: {x: 2.3529413, y: 1.1764706, z: 0.39215687}
+    position: {x: 109.375, y: 168.75, z: 31.25}
+    radius: 187.5
+  hasSimpleLightingAmbientLightColor: 1
+  simpleLightingAmbientLightColor: {r: 0.8066038, g: 0.9033019, b: 1, a: 1}
+  shadowFadeDistance: -8.125
+  introMusicAssetPath: assets/music/stages/train_intro.wav
+  loopMusicAssetPath: assets/music/stages/train_loop.wav

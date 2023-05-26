@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1751418164690944
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4631947917307745}
+  - component: {fileID: 114454670652821870}
+  m_Layer: 0
+  m_Name: CharAbility_Annie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4631947917307745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751418164690944}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114454670652821870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751418164690944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52a1e4308b2cbf95b7ded80775738a2b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  title: Char_Annie_CA_Title
+  description: Char_Annie_CA_Desc
+  instantiateWhenCALocked: 0
+  debug: 1
+  annieImage: {fileID: 11400000, guid: 871ff79ea07f50e41b3a1eeaf0fa8061, type: 2}
+  chargeSpeedSeconds:
+    value: 81920
+  chargeSpeedReadyMultiplier:
+    value: 1638
+  drainSpeedSeconds:
+    value: 61440
+  starPowerSpendStars:
+    value: 10240
+  starPowerSpendSpecial:
+    value: 30720
+  starPowerSpendToggleOn:
+    value: 10240
+  starPowerSpendAnimationActivation:
+    value: 20480
+  hudIcon: {fileID: 114572022221669722, guid: 3733e7b7fa7109848bb3f400dd249de9, type: 2}
+  fillRotationSpeedInactive: 10
+  fillRotationSpeedActive: 1250
+  rainbowLineArtSpeed: 1
+  rainbowLineArtBrightness: 0.55

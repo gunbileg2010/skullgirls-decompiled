@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1963600288282242
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4679565697932134}
+  - component: {fileID: 114071405554417422}
+  - component: {fileID: 114891529791769564}
+  - component: {fileID: 114704434352102019}
+  - component: {fileID: 114797583904486282}
+  - component: {fileID: 114533233019795362}
+  - component: {fileID: 114509131853145266}
+  m_Layer: 0
+  m_Name: RiftBattle_Tutorial_0_BattleLobby_FirstVisit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4679565697932134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963600288282242}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.0027328, y: 20.401947, z: -24.111328}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114071405554417422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963600288282242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a55ab982c24c77ff2e5338a021c2061, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  actions:
+  - {fileID: 114797583904486282}
+  - {fileID: 114704434352102019}
+  - {fileID: 114891529791769564}
+  - {fileID: 114533233019795362}
+  - {fileID: 114509131853145266}
+--- !u!114 &114891529791769564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963600288282242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49f6066fa378d8db8effe6e88f9e7457, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  popupData: {fileID: 11400000, guid: dd0f7a5e4b104004ea95636fc1f0ef2c, type: 2}
+  popupText:
+  talkingHead: {fileID: 0}
+  talkingHeadEmote:
+--- !u!114 &114704434352102019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963600288282242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 111efefe411864b489c86616eb05995e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  elementsToShow:
+  currenciesToShow:
+  characterContex: {fileID: 0}
+  immediate: 1
+--- !u!114 &114797583904486282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963600288282242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b489b9d4cd9bd656344c2ad8faf3e36c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  active: 1
+--- !u!114 &114533233019795362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963600288282242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca9c3e6b01937cd8c869f8f2f6a5a7e7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  progress: 1
+--- !u!114 &114509131853145266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963600288282242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7224b9b43931a2d0eb5180fa4c8ec6ad, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  actionDisplay: {fileID: 0}
+  actionPromptText:
+  tutorialIndications:
+  - target: 18
+    indicatorPrefab: {fileID: 114784005859908345, guid: 1c7d9a0b6dd65cc4e86ef9b1e0be0550, type: 2}
+    offset: {x: 0, y: 0}
+    scale: {x: 1, y: 1}
+    sortingOrder: 1000
+  - target: 18
+    indicatorPrefab: {fileID: 114187400769066984, guid: b520f87a4abe59f4b8c3056a48f2c1f1, type: 2}
+    offset: {x: 0, y: 0}
+    scale: {x: 1, y: 1}
+    sortingOrder: 1000
+  stateName: ChapterMap

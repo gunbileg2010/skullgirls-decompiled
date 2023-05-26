@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1241652485526317
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4779187951099744}
+  - component: {fileID: 114923964664704978}
+  m_Layer: 0
+  m_Name: CharAbility_Umbrella
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4779187951099744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241652485526317}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4765182811186406}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114923964664704978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241652485526317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a06dd32f5f3cf2befe8330991220af8e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  title: Char_Umbrella_CA_Title
+  description: Char_Umbrella_CA_Desc
+  instantiateWhenCALocked: 0
+  debug: 1
+  ravenousImage: {fileID: 11400000, guid: cd818d62bb9794e4aa85990b35736f1c, type: 2}
+  satiatedImage: {fileID: 11400000, guid: 7bac358eb1c82a34aa2d3e80856ab8c5, type: 2}
+  overstuffedImage: {fileID: 11400000, guid: 92a57231aa753c5479f8df370030d437, type: 2}
+  ravenousText: Char_Umbrella_CA_Ravenous
+  overstuffedText: Char_Umbrella_CA_Overstuffed
+  ravenousColor: {r: 0.4509804, g: 0.016797319, b: 0, a: 1}
+  satiatedColor: {r: 0.6320754, g: 0.39697492, b: 0, a: 1}
+  overstuffedColor: {r: 0, g: 0.2513289, b: 0.4528302, a: 1}
+  ravenousGlowColor: {r: 1, g: 0.25943398, b: 0.25943398, a: 1}
+  satiatedGlowColor: {r: 1, g: 0.93471134, b: 0.3915094, a: 1}
+  overstuffedGlowColor: {r: 0.23921567, g: 0.9153323, b: 1, a: 1}
+  ravenousVFX: {fileID: 21300000, guid: 0236a84f35db21a4ca6496a9eeb63ea0, type: 2}
+  satiatedVFX: {fileID: 21300000, guid: a405c120eee749b4f90faa7d2c9bc443, type: 2}
+  overstuffedVFX: {fileID: 21300000, guid: 5b745f103a0ccfc4c8ad0205db4a7c2f, type: 2}
+--- !u!1 &1583373415454906
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4765182811186406}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4765182811186406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583373415454906}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4779187951099744}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

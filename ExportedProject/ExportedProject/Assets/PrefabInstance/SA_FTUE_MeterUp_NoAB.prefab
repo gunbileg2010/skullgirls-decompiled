@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1543980048383402
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4961053932514042}
+  - component: {fileID: 114501676226201355}
+  - component: {fileID: 114930605682119010}
+  - component: {fileID: 114721200224918767}
+  - component: {fileID: 114415401494711827}
+  - component: {fileID: 114226094134835627}
+  m_Layer: 0
+  m_Name: SA_FTUE_MeterUp_NoAB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4961053932514042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543980048383402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 34.24735, y: 24.154495, z: -24.125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114501676226201355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543980048383402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f534ee042f085be5b2eb59c3da278c9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  title:
+  features:
+  - {fileID: 114930605682119010}
+--- !u!114 &114930605682119010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543980048383402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1a47dea2e854bdc53966d210360d8a2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  title:
+  description:
+  absoluteValue: 1
+  substitutions:
+  - METER.Value
+  triggerEvent: 2
+  additionalTriggerEvents:
+  provokingActors:
+    provokingActor: 0
+    assignedActor: 1
+    assignedActorTeammates: 0
+    enemyActor: 1
+    enemyActorTeammates: 0
+  bypassAssignedGearCondition: 0
+  triggerConditions:
+  - {fileID: 114226094134835627}
+  provokerConditions: []
+  tiers:
+  - {fileID: 114721200224918767}
+  level: 0
+--- !u!114 &114721200224918767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543980048383402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4c50023a7cb2ed60f7fabd51a4fdee, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  triggerConditions: []
+  provokerConditions: []
+  modifierSets:
+  - name: METER GAIN
+    actorFilter:
+      provokingActor: 0
+      assignedActor: 1
+      assignedActorTeammates: 0
+      enemyActor: 0
+      enemyActorTeammates: 0
+    modifiers:
+    - {fileID: 114415401494711827}
+  additionalStringSubstitutions: []
+  unlockAtLevel: 1
+--- !u!114 &114415401494711827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543980048383402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 104364953191dbe2ad6229b4ed8584be, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  id: METER
+  usageLimit: -1
+  stacksOnProc: 1
+  strength: 1
+  displayHudIcon: 0
+  affectDamageText: 0
+  displayStatusText: 1
+  displayAbilityText: 1
+  dontClearSATextEarly: 0
+  shouldTriggerEvent: 1
+  bypassPrevention: 0
+  duration:
+    value: 0
+  isPermanent: 0
+  unapplyTriggerEvent: 0
+  unapplyAllStacks: 0
+  unapplyTriggerConditions: []
+  unapplyProvokerConditions: []
+  provokingActors:
+    provokingActor: 0
+    assignedActor: 1
+    assignedActorTeammates: 0
+    enemyActor: 0
+    enemyActorTeammates: 0
+  modifyMode: 1
+  value:
+    value: 20480
+  perSecond: 0
+  activeGearOnly: 0
+  assignedGearOnly: 0
+--- !u!114 &114226094134835627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543980048383402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0927eb83d66ea47fb8de91fe310ca3c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  id:
+  logicalOperator: 0
+  not: 1
+  enemy: 0
+  point: 0
+  state: 0
+  stateString: Super
